@@ -1,0 +1,18 @@
+{
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "video": true,
+  "videoUploadOnPasses": true,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  },
+  "projectId": "pastmf"
+}
