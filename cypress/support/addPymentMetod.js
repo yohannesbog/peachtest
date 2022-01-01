@@ -1,3 +1,5 @@
+
+// adds payment card , and verify it is added succesfully 
 Cypress.Commands.add("addPaymentMethod", () => {
   cy.get('[href="/account-settings"]').contains("Settings").click();
   cy.get('[class="payment-method-container"] > div > button')
@@ -31,6 +33,8 @@ Cypress.Commands.add("addPaymentMethod", () => {
   ).contains("Debit Card *0005");
 });
 
+
+// Remove card and verify
 Cypress.Commands.add("removeCard", () => {
   cy.get('[href="/account-settings"]').contains("Settings").click();
   cy.get(

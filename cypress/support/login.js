@@ -1,6 +1,7 @@
 const email = "auto.user+bo-pboq-2qlj@peachfinance.com";
 const password = "hello12345";
 
+// login with valid password and username
 Cypress.Commands.add("login", () => {
   cy.visit("https://peach-borrower.peach-dev.finance/login");
   cy.wait("@accessApp");
@@ -12,6 +13,7 @@ Cypress.Commands.add("login", () => {
   cy.wait("@pageLoad1");
 });
 
+// signout from app
 Cypress.Commands.add("signout", () => {
   cy.get('[href="/sign-out"]')
     .scrollIntoView()

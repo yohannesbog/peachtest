@@ -1,16 +1,15 @@
 var totalOverdue;
 
-
+// Makes a payment and verify success message
 Cypress.Commands.add("makePayment", () => {
+  cy.get('.loan-card-group > div:nth-child(1) > a > div > div.header > h3')
+     .should('have.value', 'dzfyuta')
     cy.get('[class="loan-details"] [class="price"]')
       .invoke("text")
       .then((a) => {
         totalOverdue = a.substr(1);
-        cy.log("john", totalOverdue);
       });
       let pymt = 50;
-        let tt = totalOverdue - pymt;
-        cy.log(tt);
         cy.get('[class="loan-details"]').click({ force: true });
         cy.get(" button > p").contains("Make a payment").click();
         cy.get('.react-datepicker__input-container > input').click()

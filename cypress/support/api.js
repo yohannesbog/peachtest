@@ -1,3 +1,5 @@
+
+// alias api requests to verify coorect request is made after each operation
 Cypress.Commands.add('requests', () => {
     cy.intercept('GET', '/api/bootstrap?domain=peach-borrower.peach-dev.finance').as('accessApp')
     cy.intercept('POST', '/api/auth/token?userType=borrower&companyId=CP-L9BN-5J52').as('loginSuccess')
