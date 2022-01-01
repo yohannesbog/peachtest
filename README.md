@@ -30,3 +30,7 @@ https://user-images.githubusercontent.com/35242186/147855428-620ff261-912a-486a-
 #Video file for add payment method/card and remove payment method/card
 
 https://user-images.githubusercontent.com/35242186/147855487-46656f8b-151a-4832-9ad1-b878631c698b.mp4
+
+#Video file for login and signout
+
+https://user-images.githubusercontent.com/35242186/147855523-0766ef10-fccd-4d02-90cc-7923d3b14324.mp4
