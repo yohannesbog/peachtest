@@ -26,3 +26,7 @@ from the GUI run tests individually or run all by clicking run all.. on the righ
 #Video file for running test, Make payment 
 
 https://user-images.githubusercontent.com/35242186/147855428-620ff261-912a-486a-88e3-394dead21ffb.mp4
+
+#Video file for add payment method/card and remove payment method/card
+
+https://user-images.githubusercontent.com/35242186/147855487-46656f8b-151a-4832-9ad1-b878631c698b.mp4
