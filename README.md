@@ -23,3 +23,5 @@ from the GUI run tests individually or run all by clicking run all.. on the righ
 
 <img width="458" alt="Screen Shot 2022-01-01 at 11 29 11 AM" src="https://user-images.githubusercontent.com/35242186/147855190-43a8e580-8fba-436e-b0ab-5a9799565f04.png">
 
+#Video file for running test, Make payment 
+https://user-images.githubusercontent.com/35242186/147855428-620ff261-912a-486a-88e3-394dead21ffb.mp4
