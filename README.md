@@ -3,6 +3,17 @@ Clone this project
 ## install all dependencies from the root directory
 npm install
 
+# Under cypress directory 
+go to integration and find 3 spec files where we call test functions based on feature
+1. login_spec
+2. makePayment_spec
+3. addPaymentMethod_spec
+
+go to support, here is where you find automated test case codes 
+1. login.js
+2. makePayment.js
+3. addPaymentMethod.js
+
 # Opening Cypress GUI
 cd /peachproject/peachtest
 
