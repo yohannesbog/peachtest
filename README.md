@@ -34,3 +34,7 @@ https://user-images.githubusercontent.com/35242186/147855487-46656f8b-151a-4832-
 #Video file for login and signout
 
 https://user-images.githubusercontent.com/35242186/147855523-0766ef10-fccd-4d02-90cc-7923d3b14324.mp4
+
+# Test report 
+
+<img width="1141" alt="Screen Shot 2022-01-01 at 11 47 09 AM" src="https://user-images.githubusercontent.com/35242186/147855596-cf803241-660d-405d-9df4-08ee0c10622e.png">
