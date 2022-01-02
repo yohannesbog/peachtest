@@ -1,4 +1,5 @@
 # peachtest
+#Cypress automated testing tool is used to automate tests
 Clone this project 
 ## install all dependencies from the root directory
 npm install
